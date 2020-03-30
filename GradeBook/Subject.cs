@@ -24,6 +24,21 @@ namespace GradeBook
             this.credits = credits;
         }
 
+        public override int GetHashCode()
+        {
+            return (int)this.name;
+        }
+
+        public override bool Equals(object obj)
+        {
+            Subject Obj = (Subject)obj;
+
+            if (Obj.name == this.name)
+                return true;
+            else
+                return false;
+        }
+
 
     }
 }

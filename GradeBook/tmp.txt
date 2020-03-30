@@ -1,0 +1,6 @@
+﻿using GradeBook;
+Subject sub1 = new Subject(SubjectType.C, 100, 4);
+Subject sub2 = new Subject(SubjectType.Java, 100, 4);
+Subject sub3 = new Subject(SubjectType.Java, 100, 4);
+
+Student s = new Student(1, "sk");
