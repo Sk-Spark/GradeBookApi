@@ -1,6 +1,0 @@
-C:\Users\t-shuku\source\repos\GradeBookApi\test\bin\Debug\test.dll
-C:\Users\t-shuku\source\repos\GradeBookApi\test\bin\Debug\test.pdb
-C:\Users\t-shuku\source\repos\GradeBookApi\test\obj\Debug\test.csprojAssemblyReference.cache
-C:\Users\t-shuku\source\repos\GradeBookApi\test\obj\Debug\test.csproj.CoreCompileInputs.cache
-C:\Users\t-shuku\source\repos\GradeBookApi\test\obj\Debug\test.dll
-C:\Users\t-shuku\source\repos\GradeBookApi\test\obj\Debug\test.pdb
