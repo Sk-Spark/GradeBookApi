@@ -39,6 +39,44 @@ namespace GradeBook
                 return false;
         }
 
+        public override string ToString()
+        {
+            string sub = "";
+
+            sub += $" {{ name={this.name}, credits ={this.credits}, marksObtained={this.marksObtained}, " +
+                $"maxMarks={this.maxMarks} }} ";
+
+            return sub;
+        }
+
+        public static Subject getSubject(SubjectType name)
+        {
+            int maxMarks = 0;
+            int credits = 0;
+
+            switch(name)
+            {
+                case SubjectType.C :
+                    maxMarks = 100;
+                    credits = 4;
+                    break;
+
+                case SubjectType.Java:
+                    maxMarks = 100;
+                    credits = 4;
+                    break;
+
+                case SubjectType.OS:
+                    maxMarks = 100;
+                    credits = 3;
+                    break;
+            }
+
+            Subject s = new Subject(name, maxMarks, credits);
+
+            return s;
+        }
+
 
     }
 }

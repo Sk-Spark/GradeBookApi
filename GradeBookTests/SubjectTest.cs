@@ -10,17 +10,8 @@ namespace GradeBookTests
         [TestMethod]
         public void TestMethod1()
         {
-            try
-            {
-                Subject s = new Subject(SubjectType.C,100,4);
+            Student student = new Student(1, "Mr.Spark");
 
-                if (s.marksObtained != null)
-                    Assert.Fail();
-            }
-            catch(Exception e)
-            {
-                Assert.Fail();
-            }
 
         }
     }
